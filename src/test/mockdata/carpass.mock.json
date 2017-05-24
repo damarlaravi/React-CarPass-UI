@@ -1,0 +1,151 @@
+{
+  "auth": {
+    "username": "Ravi",
+    "password": "123",
+    "role": "ADMIN"
+  },
+  "getNewUser": {
+    "typeInCompany": "car pass",
+    "typeInForName": "Peter",
+    "typeInSurName": "paulsen",
+    "typeInMail": "paulsenp@send.com",
+    "username": "Vijay",
+    "password": "123",
+    "roles": [
+      {
+        "id": 1,
+        "role": "ADMIN"
+      },
+      {
+        "id": 2,
+        "role": "Fleet Manager"
+      },
+      {
+        "id": 3,
+        "role": "Driver"
+      },
+      {
+        "id": 4,
+        "role": "Work Shop Manage"
+      }
+    ]
+  },
+  "getAllUsers": [
+    {
+      "foreName": "peter",
+      "sureName": "paulsen",
+      "dateOfRegistration": "15/04/2017",
+      "role": "Fleet Manager",
+      "userName": "P Paulsen",
+      "password": "Ppaulsen123",
+      "mail": "paulsenp@send.com"
+    },
+    {
+      "foreName": "peter",
+      "sureName": "paulsen",
+      "dateOfRegistration": "15/04/2017",
+      "role": "Fleet Manager",
+      "userName": "P Paulsen",
+      "password": "Ppaulsen123",
+      "mail": "paulsenp@send.com"
+    },
+    {
+      "foreName": "peter",
+      "sureName": "paulsen",
+      "dateOfRegistration": "15/04/2017",
+      "role": "Fleet Manager",
+      "userName": "P Paulsen",
+      "password": "Ppaulsen123",
+      "mail": "paulsenp@send.com"
+    },
+    {
+      "foreName": "peter",
+      "sureName": "paulsen",
+      "dateOfRegistration": "15/04/2017",
+      "role": "Fleet Manager",
+      "userName": "P Paulsen",
+      "password": "Ppaulsen123",
+      "mail": "paulsenp@send.com"
+    },
+    {
+      "foreName": "peter",
+      "sureName": "paulsen",
+      "dateOfRegistration": "15/04/2017",
+      "role": "Fleet Manager",
+      "userName": "P Paulsen",
+      "password": "Ppaulsen123",
+      "mail": "paulsenp@send.com"
+    },
+    {
+      "foreName": "peter",
+      "sureName": "paulsen",
+      "dateOfRegistration": "15/04/2017",
+      "role": "Fleet Manager",
+      "userName": "P Paulsen",
+      "password": "Ppaulsen123",
+      "mail": "paulsenp@send.com"
+    },
+    {
+      "foreName": "peter",
+      "sureName": "paulsen",
+      "dateOfRegistration": "15/04/2017",
+      "role": "Fleet Manager",
+      "userName": "P Paulsen",
+      "password": "Ppaulsen123",
+      "mail": "paulsenp@send.com"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "role": "Fleet Manager"
+    },
+    {
+      "id": 3,
+      "role": "Driver"
+    },
+    {
+      "id": 4,
+      "role": "Work Shop Manage"
+    }
+  ],
+  "getAllCars": [
+    {
+      "imagePath": "http://localhost:3000/assets/img/car1.png",
+      "make": "Volkswagan",
+      "model": "Polo",
+      "capacity": "1682mm",
+      "consumption": "74bhp@5400rmp",
+      "emission": "Car Emission",
+      "power": "HP:88.7bhp@4200",
+      "milage": "16.47 kmpl Petrol",
+      "company": "Volkswagan"
+    },
+    {
+      "imagePath": "http://localhost:3000/assets/img/car2.png",
+      "make": "Volkswagan",
+      "model": "Jetta",
+      "capacity": "1682mm",
+      "consumption": "74bhp@5400rmp",
+      "emission": "Car Emission",
+      "power": "HP:88.7bhp@4200",
+      "milage": "16.47 kmpl Petrol",
+      "company": "Volkswagan"
+    },
+    {
+      "imagePath": "http://localhost:3000/assets/img/car3.png",
+      "make": "Volkswagan",
+      "model": "Polo",
+      "capacity": "1682mm",
+      "consumption": "74bhp@5400rmp",
+      "emission": "Car Emission",
+      "power": "HP:88.7bhp@4200",
+      "milage": "16.47 kmpl Petrol",
+      "company": "Volkswagan"
+    }
+  ]
+}
